@@ -27,4 +27,6 @@ router.put(
   authContoroller.signup
 );
 
+router.post('/login', authContoroller.login);
+
 module.exports = router;
